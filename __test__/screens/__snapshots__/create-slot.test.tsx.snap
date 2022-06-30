@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create Parking Slot renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "paddingVertical": 20,
+    }
+  }
+>
+  <TextInput
+    keyboardType="number-pad"
+    onChangeText={[Function]}
+    placeholder="Enter Parking Slot Number"
+    placeholderTextColor="gray"
+    style={
+      Object {
+        "borderColor": "gray",
+        "borderWidth": 1,
+        "paddingHorizontal": 10,
+        "paddingVertical": 5,
+      }
+    }
+    testID="Slot-Number-Input"
+    value="10"
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginVertical": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#000",
+          "opacity": 1,
+          "paddingHorizontal": 8,
+          "paddingVertical": 10,
+        }
+      }
+      testID="Create-Slot-Button"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "textAlign": "center",
+          }
+        }
+      >
+        Create Slot
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#000",
+          "marginHorizontal": 10,
+          "opacity": 1,
+          "paddingHorizontal": 8,
+          "paddingVertical": 10,
+        }
+      }
+      testID="Reset-Slot-Button"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "textAlign": "center",
+          }
+        }
+      >
+        Reset Slot
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#000",
+          "opacity": 1,
+          "paddingHorizontal": 8,
+          "paddingVertical": 10,
+        }
+      }
+      testID="View-Slot-Button"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "textAlign": "center",
+          }
+        }
+      >
+        View Slot
+      </Text>
+    </View>
+  </View>
+  <View>
+    <TextInput
+      autoCapitalize="characters"
+      keyboardType="ascii-capable"
+      onChangeText={[Function]}
+      placeholder="Enter Car Number"
+      placeholderTextColor="gray"
+      style={
+        Object {
+          "borderColor": "gray",
+          "borderWidth": 1,
+          "paddingHorizontal": 10,
+          "paddingVertical": 5,
+        }
+      }
+      testID="Add-Car-In-Slot-Input"
+      value="RJ 06 XP 0000"
+    />
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#000",
+          "marginVertical": 15,
+          "opacity": 1,
+          "paddingHorizontal": 8,
+          "paddingVertical": 10,
+        }
+      }
+      testID="Add-Car-In-Slot-Button"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Car In Parking
+      </Text>
+    </View>
+  </View>
+</View>
+`;
